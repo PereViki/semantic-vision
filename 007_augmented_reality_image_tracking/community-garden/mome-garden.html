@@ -94,7 +94,7 @@
     </div>
     <!-- custom scanning image div END-->
 
-    <a-scene mindar-image="uiScanning: #scanning-overlay; imageTargetSrc: ./targets_flowers.mind; maxTrack: 3;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="filterMinCF:0.1; filterBeta: 10; uiScanning: #scanning-overlay; imageTargetSrc: ./targets_flowers.mind; maxTrack: 2;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       
       <!-- IDs of images to be shown -->
       <a-assets>
@@ -194,12 +194,6 @@
       -->
     </a-scene>
     <script>
-    
-      // detect click event
-       // const examplePlane = document.querySelector('#CTA-water');
-      //  examplePlane.addEventListener("click", event => {
-      //    console.log("plane click");
-      //  });
 
       document.querySelector('#ctaWater').addEventListener("click", event => {
           window.location.href = "https://pereviki.github.io/semantic-vision/007_augmented_reality_image_tracking/community-garden/form.html";
