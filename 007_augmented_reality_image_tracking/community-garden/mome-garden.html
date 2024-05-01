@@ -94,7 +94,7 @@
     </div>
     <!-- custom scanning image div END-->
 
-    <a-scene mindar-image="uiScanning: #scanning-overlay; imageTargetSrc: ./targets_flowers.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="uiScanning: #scanning-overlay; imageTargetSrc: ./targets_flowers.mind; maxTrack: 3;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       
       <!-- IDs of images to be shown -->
       <a-assets>
@@ -109,10 +109,11 @@
         <img id="card_07" src="./assets/images/plant-card-07.png" />
         <img id="card_08" src="./assets/images/plant-card-08.png" />
         <img id="card_09" src="./assets/images/plant-card-09.png" />
+        <img id="CTA" src="./assets/images/CTA.png" />
 	    </a-assets>
 
       <!-- camera setup -->
-      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+      <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: ${customFields.libVersion}; objects: .clickable"></a-camera>
 
       <!-- assign and position images to markers -->
 
@@ -125,8 +126,9 @@
       -->
 
       <!-- marker ID - 0 - TULIP -->
-      <a-entity mindar-image-target="targetIndex: 0"> 
+      <a-entity mindar-image-target="targetIndex: 0, missTolerance: 10"> 
         <a-plane src="#card_02" position="0 0 0" height="2.08" width="1" rotation="0 0 0"></a-plane> 
+        <a-plane id="ctaWater" src="#CTA" position="0 -1.2 0.2" height="0.25" width="0.8" rotation="0 0 0" class="clickable"></a-plane> 
       </a-entity>
 
      
@@ -191,5 +193,18 @@
 
       -->
     </a-scene>
+    <script>
+    
+      // detect click event
+       // const examplePlane = document.querySelector('#CTA-water');
+      //  examplePlane.addEventListener("click", event => {
+      //    console.log("plane click");
+      //  });
+
+      document.querySelector('#ctaWater').addEventListener("click", event => {
+          window.location.href = "/007_augmented_reality_image_tracking/community-garden/form.html";
+      });
+
+    </script>
   </body>
 </html>
