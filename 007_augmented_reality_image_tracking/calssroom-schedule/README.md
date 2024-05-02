@@ -2,6 +2,11 @@
 ## Overview
 This Classroom Schedule tool provides a solution for MOME citizens or guests who would like to confirm the location of certain events, looking for others, or looking for an available place to work.
 
+Functionalities are limited in this demo, but could cover the following use cases:
+
+* Classroom booking
+* Location based services to find a classroom
+* Classroom issue reporting
 
 ## Folder Structure
 

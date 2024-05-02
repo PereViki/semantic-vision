@@ -1,6 +1,8 @@
 # MOME Community Garden
 ## Overview
-This Community Garden tool provides a digital layer for the planned communtity garden. Functionalities are limited in this demo, but could cover the following use cases:
+This Community Garden tool provides a digital layer for the planned communtity garden. 
+
+Functionalities are limited in this demo, but could cover the following use cases:
 
 * Education about the plants & bees
 * Sceduling for maintenance (e.g. watering)
