@@ -5,13 +5,10 @@ This Classroom Schedule tool provides a solution for MOME citizens or guests who
 
 ## Folder Structure
 
-Assets - includes all assets that are being used in the project
-
-index.html - the landing page of the tool
-
-mome-classroom.html - the scanning page of the tool
-
-target_doors.mind - compiled markers for the mindAR codebase
+* **Assets** - includes all assets that are being used in the project
+* **index.html** - the landing page of the tool
+* **mome-classroom.html** - the scanning page of the tool
+* **target_doors.mind** - compiled markers for the mindAR codebase
 
 ## Start here
 

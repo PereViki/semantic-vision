@@ -10,15 +10,11 @@ This Community Garden tool provides a digital layer for the planned communtity g
 
 ## Folder Structure
 
-Assets - includes all assets that are being used in the project
-
-index.html - the landing page of the tool
-
-mome-garden.html - the scanning page of the tool
-
-form.html - a placeholder page for further actions - opening on an onClick event on an AR button.
-
-target_flowers.mind - compiled markers for the mindAR codebase
+* **Assets** - includes all assets that are being used in the project
+* **index.html** - the landing page of the tool
+* **mome-garden.html** - the scanning page of the tool
+* **form.html** - a placeholder page for further actions - opening on an onClick event on an AR button.
+* **target_flowers.mind** - compiled markers for the mindAR codebase
 
 ## Start here
 
