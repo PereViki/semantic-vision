@@ -19,4 +19,4 @@ target_doors.mind - compiled markers for the mindAR codebase
 
 
 ## Inspiration
-This project has been created for the Computer Vision class lead by Ágoston Nagy in 2024.
+This project has been created for the Computer Vision course lead by Ágoston Nagy at MOME in 2024.
