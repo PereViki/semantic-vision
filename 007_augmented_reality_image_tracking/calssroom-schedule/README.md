@@ -4,14 +4,18 @@ This Classroom Schedule tool provides a solution for MOME citizens or guests who
 
 
 ## Folder Structure
+
 Assets - includes all assets that are being used in the project
+
 index.html - the landing page of the tool
+
 mome-classroom.html - the scanning page of the tool
+
 target_doors.mind - compiled markers for the mindAR codebase
 
 ## Start here
 
-001 - [Classroom Schedule Landing Page](https://pereviki.github.io/semantic-vision/007_augmented_reality_image_tracking/calssroom-schedule/index.html)
+[Classroom Schedule Landing Page](https://pereviki.github.io/semantic-vision/007_augmented_reality_image_tracking/calssroom-schedule/index.html)
 
 
 ## Inspiration
