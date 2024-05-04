@@ -94,7 +94,7 @@
     </div>
     <!-- custom scanning image div END-->
 
-    <a-scene mindar-image="filterMinCF: 0.001; filterBeta: 100; uiScanning: #scanning-overlay; imageTargetSrc: ./targets_doors.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="warmupTolerance: 25; missTolerance: 25; filterMinCF: 0.001; filterBeta: 100; uiScanning: #scanning-overlay; imageTargetSrc: ./targets_doors.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       
       <!-- IDs of images to be shown -->
       <a-assets>
